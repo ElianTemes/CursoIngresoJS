@@ -8,5 +8,7 @@ function mostrar()
 	let edadIngresada;
 	edadIngresada = txtIdEdad.value; 
 	alert("Usted se llama " +(nombreIngresado) +" Y tiene " +(edadIngresada) +" años");
+	txtIdNombre.value = " ";
+	txtIdEdad.value = " ";
 }
 
