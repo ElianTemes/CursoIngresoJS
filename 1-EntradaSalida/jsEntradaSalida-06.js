@@ -11,7 +11,7 @@ function sumar () 						//Tambien lei que hay que separar los parentesis del nom
 	num2 = txtIdNumeroDos.value;	//Fallo que tuve, parseInt no re-define la variable por lo cual hay que asignar con =
 	num1 = parseInt ( num1, 10 );
 	num2 = parseInt ( num2, 10 );
-	alert('La suma es: ' + (num1 + num2));
+	alert('La suma es: ' + ( num1 + num2 ));
 	txtIdNumeroUno.value = ' '; 	//Tratando de tomar la costumbre de limpiar la caja de texto
 	txtIdNumeroDos.value = ' ';		//Leyendo reglas de identacion para JS estuve viendo que se recomienda usar ''
 } 
