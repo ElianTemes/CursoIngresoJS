@@ -8,11 +8,11 @@ function mostrarAumento()
 	let importe;
 	let resultadoImporte;
 
-	importe = txtIdImporte.value;
+	importe = document.getElementById('txtIdImporte').value;
 	importe = parseInt(importe, 10);
 	resultadoImporte = importe - importe / 100 * 25 ;
 
-	txtIdResultado.value = resultadoImporte;
+	document.getElementById('txtIdResultado').value = resultadoImporte;
 	
-	txtIdImporte.value = ' '; 
+	document.getElementById('txtIdImporte').value = ''; 
 }

@@ -7,9 +7,12 @@ function mostrarAumento()
 {
 	let sueldo;
 	let resultadoImporte;
-	sueldo = txtIdSueldo.value;
+
+	sueldo = document.getElementById('txtIdSueldo').value;
 	sueldo = parseInt(sueldo, 10);
 	resultadoImporte = sueldo / 100 * 10 + sueldo;
-	txtIdResultado.value = resultadoImporte;
-	txtIdSueldo.value = ' '; 
+
+	document.getElementById('txtIdResultado').value = resultadoImporte;
+	
+	document.getElementById('txtIdSueldo').value = ''; 
 }
