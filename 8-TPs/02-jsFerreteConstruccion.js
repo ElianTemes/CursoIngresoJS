@@ -38,8 +38,8 @@ function Circulo ()
 }
 function Materiales () 
 {
-    let largo = parseInt(document.getElementById('txtIdLargo').value);
-    let ancho = parseInt(document.getElementById('txtIdAncho').value);
+    let largo = parseInt(document.getElementById('txtIdLargo').value, 10); //se puede usar parseInt como asignacion a la vez que se declara
+    let ancho = parseInt(document.getElementById('txtIdAncho').value, 10);
     let cal = 3 * (largo * ancho);
     let cemento = 2 * (largo * ancho);
 
